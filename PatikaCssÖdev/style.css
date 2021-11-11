@@ -1,0 +1,30 @@
+.body {
+    background-color:#dbbfad ;
+    color: #d6ede7;
+}
+
+.main-header {
+    text-align: center;
+}
+.navbar {
+    background-color: aliceblue;
+    padding: 20px;
+}
+.navbar-link {
+    border-right: 1px grey solid;
+    margin-left: 20vw;
+}
+.main-image {
+    width: 50vw;
+    height: 70vh;
+    display: inline;
+
+}
+
+.container {
+    align-items: center;
+}
+
+.paragraf {
+    display: inline;
+}
