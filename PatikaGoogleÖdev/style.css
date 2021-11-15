@@ -1,0 +1,15 @@
+.sub-container {
+    display: flex;
+}
+.sub1 {
+    background-color: #7ee5da;
+    flex-grow:16
+}
+.sub2 {
+    background-color: #70ccc2;
+    flex-grow:6
+}
+.sub3 {
+    background-color: #62b3aa;
+    flex-grow:20
+}
