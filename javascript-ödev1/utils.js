@@ -9,7 +9,7 @@ const getGuestName = () => {
   
     // document.getElementById("time-box").innerHTML = saat.toLocaleTimeString();
   
-    document.querySelector("#time-box").innerHTML = time.toLocaleTimeString();
+    document.querySelector("#zaman").innerHTML = time.toLocaleTimeString();
     
     var weekday = new Array(7);
     weekday[0] = "Pazar";
@@ -21,7 +21,7 @@ const getGuestName = () => {
     weekday[6] = "Cumartesi";
   
     var n = weekday[time.getDay()];
-    document.querySelector("#demo").innerHTML = n;
+    document.querySelector("#gün").innerHTML = n;
   }
   
   getGuestName();
